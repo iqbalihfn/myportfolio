@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personal Portfolio - Bootstrap 5</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- font -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-lg">
+        <a class="navbar-brand text-primary fw-bold fs-4" href="#">My Portfolio</a>
+        <div class="dropdown">
+          <button class="btn btn-primary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-bars"></i></button>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#home">Home</a></li>
+            <li><a class="dropdown-item" href="#about">About</a></li>
+            <li><a class="dropdown-item" href="#portfolio">Portfolio</a></li>
+            <li><a class="dropdown-item" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- home section -->
+    <section class="home py-5 bg-dark" id="home">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="home-img text-center">
+              <img src="img/ava.png" class="rounded-circle mw-100" />
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+            <div class="home-text">
+              <p class="text-light mb-1">Hello I'm</p>
+              <h1 class="text-primary text-uppercase fs-1 fw-bold">UI/UX Designer</h1>
+              <h2 class="fs-4 text-light mb-4">Iqbal Ihfanuddin</h2>
+              <p class="mt-2 text-light">Welcome to my portfolio website</p>
+              <a href="#portfolio" class="btn btn-primary px-3 mt-3">My Work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    <!-- end home section -->
+    <!-- about section -->
+    <div class="about py-5" id="about">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">About Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <div class="about-text">
+              <h3 class="fw-bold mb-3">I am an Informatics Student at Indraprasta PGRI University in North Jakarta</h3>
+              <p>I'm someone who always likes to try about new thing. My hobby is drawing, design, writing code and i'm still improving my skills in programming 
+                especially design.</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 d-flex align-items-center">
+                <a href="https://drive.google.com/file/d/15BO76VOMnsu1Z8qWpVyL1nS_AeSeMdaf/view?usp=sharing" target="_blank" class="btn btn-primary me-3">Download CV</a>
+                <div class="social-links">
+                  <a href="https://wwww.facebook.com/thegunnersvcc" target="_blank"><i class="fab fa-facebook me-2 text-dark"></i></a>
+                  <a href="https://www.instagram.com/iqbalihfn" target="_blank"><i class="fab fa-instagram me-2 text-dark"></i></a>
+                  <a href="https://dribbble.com/iqbalhf" target="_blank"><i class="fab fa-dribbble me-2 text-dark"></i></a>
+                  <a href="https://github.com/iqbalihfn" target="_blank"><i class="fab fa-github me-2 text-dark"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mt-5 mt-md-0">
+            <div class="skill-title">
+              <h2 class="fs-5 fw-bold mb-4">Program Language</h2>
+            </div>
+            <div class="skill-item mb-3">
+              <h3 class="fs-6">HTML</h3>
+              <div class="progress" style="height: 5px">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item mb-3">
+              <h3 class="fs-6">CSS</h3>
+              <div class="progress" style="height: 5px">
+                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item mb-5">
+              <h3 class="fs-6">FW Bootstrap</h3>
+              <div class="progress" style="height: 5px">
+                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="skill-title">
+              <h2 class="fs-5 fw-bold mb-4">UI/UX Design Tools</h2>
+            </div>
+            <div class="skill-item mb-3">
+              <h3 class="fs-6">Figma</h3>
+              <div class="progress" style="height: 5px">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="skill-item mb-3">
+              <h3 class="fs-6">Adobe XD</h3>
+              <div class="progress" style="height: 5px">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about section -->
+    <!-- portfolio section -->
+    <div class="portfolio py-5 bg-dark" id="portfolio">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="f2-bold mb-5 text-light">Latest Works</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="img/portfolio/1.png" class="w-100 img-thumbnail" />
+              <h3 class="text-capitalize fs-5 my-2 text-light">UI App design</h3>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="img/portfolio/2.png" class="w-100 img-thumbnail" />
+              <h3 class="text-capitalize fs-5 my-2 text-light">Landing Page UI Concept</h3>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="portfolio-item">
+              <img src="img/portfolio/3.png" class="w-100 img-thumbnail" />
+              <h3 class="text-capitalize fs-5 my-2 text-light mb-5">UI Web Design</h3>
+            </div>
+          </div>
+          <p class="mb-4 text-end fs-5"><a href="https://dribbble.com/iqbalhf" class="text-primary text-decoration-none" target="_blank">See More</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- end portfolio section -->
+    <!-- availablle section -->
+    <div class="freelancer-available py-5 bg-light">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p class="fs-5">Do you have any Project</p>
+            <h2 class="fs-1 mb-4">I'm Available For Freelancer Projects</h2>
+            <a href="#contact" class="btn btn-outline-primary">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end availablle section -->
+    <!-- contact section -->
+    <section class="contact py-5 bg-dark" id="contact">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5 text-light">Contact Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-light">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="text text-light ms-3">
+                <h3 class="fs-5">Email</h3>
+                <p>iqbalihf10@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-light">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text text-light ms-3">
+                <h3 class="fs-5">Phone/Whatsapp</h3>
+                <p>+62855-8306-229</p>
+              </div>
+            </div>
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-light">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="text text-light ms-3">
+                <h3 class="fs-5">Address</h3>
+                <p>Jl. Bangun Cipta Sarana RT 003/05 No. 35 Kelapa Gading Jakarta Utara 14250</p>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-7">
+              <div class="contact-form">
+                <form>
+                  <div class="row">
+                    <div class="col-lg-6 mb-4">
+                      <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0 shadow-sm" />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6 mb-4">
+                      <input type="text" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0 shadow-sm" />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 mb-4">
+                      <input type="text" placeholder="Subject" class="form-control form-control-lg fs-6 border-0 shadow-sm" />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12 mb-4">
+                      <textarea rows="5" placeholder="Your Message" Class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <button type="submit" class="btn btn-primary px-3">Send Message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end contact section -->
+    <!-- footer -->
+    <footer class="footer py-4">
+      <div class="container-lg">
+        <div class="row">
+          <div class="col-lg-12">
+            <p class="m-0 text-center"><i class="fas fa-copyright"></i> 2021 • IqbalIhf</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
